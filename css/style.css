@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: rgb(167, 167, 167);
+    --cor2: rgb(240, 240, 240);
+    --cor3: rgb(56, 25, 168); 
+
+    --cor2_alfa: rgba(240, 240, 240, 0.747);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif; 
+}
+/* header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: var(--cor1);
+
+}
+/* main */
+
+main{
+    display: grid;
+}
+
+main .container_form{
+    background-image: url(/css/imagens/bg-form.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+}
+
+main .container_form form h2{
+    text-align: justify;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 13pt;
+    background-color: var(--cor2);
+    padding: 20px;
+}
+
+main .container_form form{
+    background-color: var(--cor2_alfa);
+    width: 300px;
+    height: 530px;
+    float: right;
+    margin: 10px 100px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main .container_form form input{
+    width: 250px;
+    height: 30px;
+    margin: 10px 30px 30px;
+    padding: 5px;
+    border: none;
+}
+
+main .container_form form label{
+    margin-left: 30px;
+    font-size: 12pt;
+}
+
+main .container_form form button[type="submit"]{
+    width: 80%;
+    height: 40px;
+    margin: 20px 10%;
+    background-color: var(--cor3);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+main .container_form form button[type="submit"]:hover{
+    background-color: rgb(43, 11, 158);
+}
+
+main img[alt="Imagem de seta"]{
+    z-index: 100;
+    position: relative;
+    top: -30px;
+    left: 50%;
+}
+
+main .titulos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--cor1);
+    padding: 70px 10%;
+    margin-top: 0;
+    position: relative;
+    top: -63px;
+}
+
+
+
+
+
