@@ -116,16 +116,112 @@ main .container_imagens{
     padding: 20px 10%;
     margin: auto;
 }
+
 main .container_imagens #container_imagem_1{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    width: 90vw;
+    background-color: var(--color-background-blue-light);
+    padding: 20px;
+    position: relative;
+    top: -80px;
 }
-
 
 main .container_imagens #container_imagem_1 :first-child{
-    width: 300px;
-    height: 300px;
+    width: 40%;
+    height: auto;
+    margin: 0 20px;
 }
 
+main .container_imagens #container_imagem_2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 90vw;
+    background-color: var(--color-background-blue-light);
+    padding: 20px;
+    position: relative;
+    top: -76px;
+}
+
+main .container_imagens #container_imagem_2 :first-child{
+    width: 40%;
+    height: auto;
+    margin: 0 20px;
+}
+
+main .container_imagens #container_imagem_3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90vw;
+    background-color: var(--color-background-blue-light);
+    padding: 20px;
+    position: relative;
+    top: -71px;
+}
+
+main .container_imagens #container_imagem_3 :first-child{
+    width: 40%;
+    height: auto;
+    margin: 0 20px;
+}
+
+main .container_imagens #container_imagem_4{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 90vw;
+    background-color: var(--color-background-blue-light);
+    padding: 20px;
+    position: relative;
+    top: -68px;
+}
+
+main .container_imagens #container_imagem_4 :first-child{
+    width: 40%;
+    height: auto;
+    margin: 0 20px;
+}
+
+main .texto_final{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 90vw;
+    padding: 20px 10%;
+    margin: auto;
+    position: relative;
+    top: -85px;
+    background-color: var(--color-background-header);
+}
+
+main .texto_final h2{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 13pt;
+    padding: 20px;
+}
+
+main .texto_final p{
+    margin-bottom: 20px;
+    font-size: 12pt;
+    text-decoration: underline;
+}
+
+/* footer */
+
+footer{
+    text-align: center;
+    color: var(--color-text);
+    margin:  0 10px;
+    padding: 15px;
+}
+
+footer p{
+    font-size: 12pt;
+    margin-bottom: 10px;
+}
 
 
